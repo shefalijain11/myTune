@@ -1,0 +1,181 @@
+body{
+    background-color: #252529;
+    color:black;
+    line-height:1.6;
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+    overflow-x: hidden;
+}
+
+/*navbar*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+    
+}
+
+.navbar-div{
+    background-color: #333;
+    width:100%;
+    /* height:45px; */
+    position:fixed;
+    z-index: 1;
+}
+
+#navs .nav-link:hover{
+    background-color:#252529;
+    
+}
+
+/* title */
+#title{
+    color: #fff;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+.title-h1{
+    text-align: center;
+    font-weight:500;
+    font-size: 4rem;
+}
+.title-para{
+    font-size:1.5rem;
+    font-weight: 400 ;
+    text-align: center;
+}
+
+/* trial-section */
+#trial{
+    color:#fff;
+}
+.trial-h3-1{
+    font-size: 2.5rem;
+    display:inline-block;
+    font-weight: bold;
+}
+
+.trial-h3-2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.trial-paragraph{
+    font-size: 1.3rem;
+}
+
+.trial-button{
+    background-color: rgb(153, 0, 0);
+    color: #fff;
+    font-size: 1rem;
+}
+.trial-button:hover{
+    background-color: rgb(228, 2, 2);
+}
+
+
+/* read-more */
+#read-more{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.read-more-h3{
+    
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.read-more-para{
+    
+    font-size: 1.3rem;
+    color:#333;
+}
+.read-more-button{
+    background-color: rgba(0, 0, 71,0.9);
+    color:#fff;
+}
+.read-more-button:hover{
+    background-color: rgb(1, 1, 201);
+}
+
+.read-more-image-1{
+    border-radius: 10%;
+}
+
+.container-fluid-read-more {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+.text-on-blue{
+    position:absolute;
+    left:200px;
+    top:200px;
+    margin-right: 150px;
+    
+}
+
+/* gift-card section */
+#gift-card{
+    background-color: #f4f4f4;
+}
+
+.gift-card-h5{
+    font-weight:700 ;
+    color:#333;
+    font-size: 1.7rem;
+}
+
+.gift-card-para{
+    color: #333;
+}
+
+.gift-card-redeem{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.17rem;
+}
+.gift-card-redeem:hover{
+    color: blueviolet;
+}
+
+/* footer */
+ul{
+    list-style-type: none;
+}
+
+#footer{
+    color:#fff;
+}
+#footer a{
+    color:#ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+#footer h5{
+    font-size: 1.1rem;
+}
+
+/* copyright */
+#copyright{
+    background-color: #333;
+    color:#fff;
+    padding:1.38%;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+
+
+
+
+
